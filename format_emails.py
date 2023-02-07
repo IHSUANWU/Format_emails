@@ -19,7 +19,7 @@ def input_multiple_lines():
 
 print("put in emails, finish with [Ctrl+D]:")
 emails = input_multiple_lines()
-regex = r'\b[\w\.-]+@coinbase\.com'
+regex = r'\b[\w\.-]+@gmail\.com'
 matched_emails = re.findall(regex, emails)
 
 print('Matched emails:')
